@@ -3,12 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style-type: none;
+}
 .container {
-  margin-left: 100px;
+  margin: 20px auto 0 auto;
   height: auto;
-  width: 300px;
-
-  padding: 20px;
+  width: 50%;
+  min-width: 250px;
+  max-width: 500px;
+  padding: 10px;
   display: block;
   box-shadow: -2px 2px 4px 1px rgba(128, 128, 128, 0.859);
 }
@@ -19,6 +23,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+.input-container p {
+  color: rgb(99, 103, 106);
 }
 input {
   border-top: none;
@@ -27,10 +36,23 @@ input {
   outline: none;
   padding-left: 1px;
 }
-.input-container button {
+.add {
   padding: 10px;
   color: white;
   background-color: #348088;
   border: none;
   box-shadow: -1px 1px 2px 1px grey;
+}
+.clear {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 100px;
+}
+.list-container {
+  margin-block: 20px;
+}
+.tasks-container li {
+  border: 1px solid rgba(128, 128, 128, 0.606);
+  padding: 5px 3px;
 }

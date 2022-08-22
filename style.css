@@ -6,6 +6,10 @@
 ul {
   list-style-type: none;
 }
+ul li {
+  display: flex;
+  justify-content: space-between;
+}
 .container {
   margin: 20px auto 0 auto;
   height: auto;

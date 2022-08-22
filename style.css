@@ -9,6 +9,8 @@ ul {
 ul li {
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
+  font-weight: 550;
 }
 .container {
   margin: 20px auto 0 auto;
